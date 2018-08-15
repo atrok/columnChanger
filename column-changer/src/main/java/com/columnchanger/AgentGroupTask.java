@@ -1,5 +1,6 @@
 package com.columnchanger;
 
+import java.util.Iterator;
 import java.util.Set;
 
 import com.genesyslab.platform.applicationblocks.com.CfgObject;
@@ -10,9 +11,12 @@ import com.genesyslab.platform.applicationblocks.com.objects.CfgPerson;
 public class AgentGroupTask implements MyTask{
 
 	private Set list=null;
-	CfgAgentGroup current=null;
+	private CfgAgentGroup current=null;
+	private Iterator it=null;
+	
 	public AgentGroupTask(Set list){
 		this.list=list;
+		this.it=this.list.iterator();
 	}
 	
 	@Override
@@ -23,7 +27,7 @@ public class AgentGroupTask implements MyTask{
 
 	@Override
 	public AgentGroupTask next() {
-		current=(CfgAgentGroup)list.iterator().next();
+		current=(CfgAgentGroup)this.it.next();
 		return this;
 	}
 

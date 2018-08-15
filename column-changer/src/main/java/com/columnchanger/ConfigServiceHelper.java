@@ -76,6 +76,8 @@ public class ConfigServiceHelper {
 
 			service = ConfServiceFactory.createConfService(protocol);
 			protocol.open();
+			
+			System.out.println("Connection to CS is opened, "+protocol.toString());
 
 		} finally {
 			if (service != null) {
@@ -93,6 +95,7 @@ public class ConfigServiceHelper {
 	 */
 	public void releaseConfigService() {
 		try {
+			System.out.println("Closing connection to CS");
 			if (service != null) {
 				Protocol protocol = service.getProtocol();
 				if (protocol.getState() != ChannelState.Closed)

@@ -7,6 +7,7 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -14,11 +15,14 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.regex.Pattern;
 
 import com.genesyslab.platform.applicationblocks.com.objects.CfgAgentGroup;
 import com.genesyslab.platform.applicationblocks.com.objects.CfgPerson;
 import com.genesyslab.platform.applicationblocks.com.queries.CfgPersonQuery;
+import com.genesyslab.platform.commons.collections.KVList;
 import com.genesyslab.platform.commons.collections.KeyValueCollection;
 import com.genesyslab.platform.commons.collections.KeyValuePair;
 import com.genesyslab.platform.commons.log.Log;
@@ -32,15 +36,18 @@ public class Main {
 	private static String AG_FILE = "ag.txt";
 	private static String PERSON_FILE = "persons.txt";
 	private static String PERSON_OPTION_MATCH = "customized\\.workbin\\.email\\..+";
-	private static String PERSON_SECTION_MATCH = "interaction-workspace";
+	private static String IW_SECTION = "interaction-workspace";
 	private static String AG_OPTION1_MATCH = "workbin\\.email\\.IC\\.displayed-columns";
-	private static String AG_OPTION_MATCH = "workbin\\.email\\.I.+\\.displayed-columns";
+	private static String AG_OPTION_MATCH = "workbin\\.email\\..+";
 	private static String AG_OPTION_VALUE = "MessageType,FromAddress,To,Subject,ReceivedAt";
 	private static String AG_OPTION1_VALUE = "MessageType,FromAddress,To,Subject,ReceivedAt,Team_Code";
+	private static int EXECTMOUT = 10;
 
 	public static void main(String[] args) {
 		initLogger();
 		Properties props = getProperties();
+		List<MyTask> tasks = new ArrayList<MyTask>();
+
 		if (props == null) {
 			System.out.println("Can't get \'application.properties\'. Check if file available in resources.");
 			return;
@@ -52,11 +59,47 @@ public class Main {
 			// get our CfgApplication
 			confService = new ConfigServiceHelper(props);
 			confService.openService();
-			System.out.println("connection is opened");
 
 			// get list of person dbids
-			processPersons(confService);
-			processAgentGroups(confService);
+
+			if (props.getProperty("execution.tasks") != null) {
+				List<String> items = Arrays.asList(props.getProperty("execution.tasks").split(","));
+
+				if (null != props.getProperty("execution.timeout"))
+					EXECTMOUT = Integer.parseInt(props.getProperty("execution.timeout"));
+
+				System.out.println("execution.timeout is set to: " + EXECTMOUT + " msec");
+
+				for (String item : items) {
+					switch (item) {
+					case "person":
+						tasks.add(processPersons(confService));
+						break;
+					case "ag":
+						tasks.add(processAgentGroups(confService));
+						break;
+					default:
+						break;
+					}
+				}
+
+				System.out.println("Starting Single Thread Executor to submit changes to CS");
+
+				ExecutorService executor = Executors.newSingleThreadExecutor();
+				for (MyTask task : tasks) {
+					if (null != task)
+						executor.execute(new SimpleRunnable(task, EXECTMOUT));
+				}
+				executor.shutdown();
+				// dirty hack to make sure configuration server connection won't
+				// get closed prematurely
+				while (!executor.isTerminated()) {
+
+				}
+			} else {
+				System.out.println(
+						"Tasks aren't defined. Please add execution.tasks option to application.properties file. Values are comma-separated list of next values: person,ag");
+			}
 
 		} catch (ConfRegistrationException ex) {
 			System.out.println("Client registration failed: " + ex.getErrorDescription());
@@ -110,9 +153,9 @@ public class Main {
 		}
 	}
 
-	private static void processPersons(ConfigServiceHelper confService) throws Exception {
+	private static MyTask processPersons(ConfigServiceHelper confService) throws Exception {
 		List<String> persons = getFileContent(PERSON_FILE);
-		Pattern pattern_section = Pattern.compile(PERSON_SECTION_MATCH);
+		Pattern pattern_section = Pattern.compile(IW_SECTION);
 		Pattern pattern_option = Pattern.compile(PERSON_OPTION_MATCH);
 
 		Set<CfgPerson> updated_persons = new HashSet<CfgPerson>();
@@ -155,7 +198,7 @@ public class Main {
 				// remove found options from agent userproperties
 				if (found_options.size() > 0) {
 					for (String index : found_options) {
-						KeyValueCollection k = agentOptions.getList(PERSON_SECTION_MATCH);
+						KeyValueCollection k = agentOptions.getList(IW_SECTION);
 						KeyValuePair deleted = k.remove(index);
 					}
 					System.out.println("Updating Person :" + agent.getUserName() + " dbid:" + agent.getObjectDbid());
@@ -163,21 +206,24 @@ public class Main {
 				}
 			}
 		}
-		
+
 		if (!updated_persons.isEmpty()) {
 			System.out.println("Found persons to be updated: " + updated_persons.size());
-			Iterator it=updated_persons.iterator();
-			while (it.hasNext()) {
-				CfgPerson agent = (CfgPerson) it.next();
-				agent.save();
-				System.out.println("Saved Person :" + agent.getUserName() + " dbid:" + agent.getObjectDbid());
-			}
+			/*
+			 * Iterator it=updated_persons.iterator(); while (it.hasNext()) {
+			 * CfgPerson agent = (CfgPerson) it.next(); agent.save();
+			 * System.out.println("Saved Person :" + agent.getUserName() +
+			 * " dbid:" + agent.getObjectDbid()); }
+			 * 
+			 */
+			return new PersonTask(updated_persons);
 		}
+		return null;
 	}
 
-	private static void processAgentGroups(ConfigServiceHelper confService) throws Exception {
+	private static MyTask processAgentGroups(ConfigServiceHelper confService) throws Exception {
 		List<String> groups = getFileContent(AG_FILE);
-		Pattern pattern_section = Pattern.compile(PERSON_SECTION_MATCH);
+		Pattern pattern_section = Pattern.compile(IW_SECTION);
 		Pattern pattern_option = Pattern.compile(AG_OPTION_MATCH);
 		Pattern pattern_option1 = Pattern.compile(AG_OPTION1_MATCH);
 
@@ -185,15 +231,16 @@ public class Main {
 
 		System.out.println("Checking Agent Groups");
 		for (String dbid : groups) {
-			List<String> found_options = new ArrayList<String>();
+			List<KeyValuePair> found_options = new ArrayList<KeyValuePair>();
 
 			CfgAgentGroup group = confService.getAgentGroup(dbid);
 			if (group != null) {
-				System.out.println("Checking AG :" + group.getGroupInfo().getName()+" dbid:" + group.getObjectDbid());
+				System.out.println("Checking AG :" + group.getGroupInfo().getName() + " dbid:" + group.getObjectDbid());
 				KeyValueCollection options = group.getGroupInfo().getUserProperties();
 
 				for (Object sectionObj : options) {
 					KeyValuePair sectionKvp = (KeyValuePair) sectionObj;
+					KeyValueCollection sectionkvlist = (KeyValueCollection) sectionKvp.getValue();
 
 					String section = sectionKvp.getStringKey();
 
@@ -205,15 +252,27 @@ public class Main {
 								System.out.println("            \"" + recordKvp.getStringKey() + "\" = \""
 										+ recordKvp.getStringValue() + "\"");
 
+								String optionname = recordKvp.getStringKey();
+								String[] a = optionname.split("\\.");
+
+								if (!a[2].equals("IC")) { // create option name
+															// to be added as
+															// KeyValuePair
+									optionname = optionname + ".displayed-columns"; 
+								}
+
 								if (pattern_option1.matcher(recordKvp.getStringKey()).matches()) {
 									recordKvp.setStringValue(AG_OPTION1_VALUE);
 									System.out.println("replaced on: " + AG_OPTION1_VALUE);
 								} else {
-									recordKvp.setStringValue(AG_OPTION_VALUE);
-									System.out.println("replaced on: " + AG_OPTION_VALUE);
+
+									found_options.add(new KeyValuePair(optionname, AG_OPTION_VALUE));
+
+									System.out.println("added: " + optionname + " = " + AG_OPTION_VALUE);
 								}
 
-								found_options.add(recordKvp.getStringKey());
+								// dirty hacking
+								found_options.add(null);
 
 							}
 						}
@@ -223,22 +282,36 @@ public class Main {
 				// remove found options from agent userproperties
 				if (found_options.size() > 0) {
 
+					for (KeyValuePair item : found_options) {
+						if (null != item) {
+							KeyValueCollection k = options.getList(IW_SECTION);
+							
+							if(k.getPair(item.getStringKey())!=null)
+								k.remove(item.getStringKey());// to avoid creating duplicately named options
+							
+							k.addPair(item);
+						}
+					}
 					updated_objects.add(group);
-					
+
 				}
 			}
 		}
 		if (!updated_objects.isEmpty()) {
 			System.out.println("Found Agent Groups to be updated: " + updated_objects.size());
-			Iterator it=updated_objects.iterator();
-			while(it.hasNext()){
-			
-				CfgAgentGroup group=(CfgAgentGroup) it.next();
-				group.save();
-				
-				System.out.println("Saved AG :" + group.getGroupInfo().getName()+" dbid:" + group.getObjectDbid());
-			}
+
+			/*
+			 * Iterator it=updated_objects.iterator(); while(it.hasNext()){
+			 * 
+			 * CfgAgentGroup group=(CfgAgentGroup) it.next(); group.save();
+			 * 
+			 * System.out.println("Saved AG :" + group.getGroupInfo().getName()+
+			 * " dbid:" + group.getObjectDbid()); }
+			 */
+
+			return new AgentGroupTask(updated_objects);
 		}
+		return null;
 	}
 
 	private static void initLogger() {
