@@ -44,6 +44,21 @@ On startup utility checks next if 2 files are in its classpath, and it fails if 
 Files are located in the root of .jar file by default, and thus are within the scope of classpath visibility.
 
 application.properties file contains configuration server connection options, which needs to be prepopulated before utility starts.
+2 additional options control execution flow:
+
+execution.timeout=<int> in msec (10msec default)
+execution.tasks=<comma separated list of <person|ag>>
+  
+In order to execute tasks for person objects only specify 
+execution.tasks=person
+
+In order to execute tasks for agent groups objects only specify
+execution.tasks=ag
+
+Both tasks
+execution.tasks=person,ag
+
+
 log4j2.xml file is log configuration file, and doesn't require any adjustment.
 ag.txt and persons.txt files contains line break separated list of dbids of agent group objects and person objects correspondingly.
 Utility once it's started and is succesfully connected to configuration server does the following in next order:
