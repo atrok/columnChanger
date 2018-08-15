@@ -1,0 +1,1102 @@
+2018-08-15 02:36:18,967 INFO  .platform.commons.log.Log [main] - Environment information: Windows Server 2008 R2/6.1/amd64/1.8.0_65/25.65-b01/windows-1251
+2018-08-15 02:36:18,973 INFO  .platform.commons.log.Log [main] - Checking PSDK jars versions:
+2018-08-15 02:36:19,016 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: kvlists.jar of 8.5.302.08 (com.genesyslab.platform.commons.collections by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: kvlistbinding.jar of 8.5.302.08 (com.genesyslab.platform.commons.collections.keyvaluebinding by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: commons.jar of 8.5.302.08 (com.genesyslab.platform.commons by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: system.jar of 8.5.302.08 (com.genesyslab.platform.system by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: connection.jar of 8.5.302.08 (com.genesyslab.platform.commons.connection by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: protocol.jar of 8.5.302.08 (com.genesyslab.platform.commons.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: configurationprotocol.jar of 8.5.302.08 (com.genesyslab.platform.configuration.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,017 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: contactsprotocol.jar of 8.5.302.08 (com.genesyslab.platform.contacts.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,018 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: managementprotocol.jar of 8.5.302.08 (com.genesyslab.platform.management.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,018 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: openmediaprotocol.jar of 8.5.302.08 (com.genesyslab.platform.openmedia.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,018 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: outboundprotocol.jar of 8.5.302.08 (com.genesyslab.platform.outbound/protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,018 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: routingprotocol.jar of 8.5.302.08 (com.genesyslab.platform.routing.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,018 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: reportingprotocol.jar of 8.5.302.08 (com.genesyslab.platform.reporting.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,018 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: voiceprotocol.jar of 8.5.302.08 (com.genesyslab.platform.voice.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,019 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: webmediaprotocol.jar of 8.5.302.08 (com.genesyslab.platform.webmedia.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,019 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: ursprotocol.jar of 8.5.302.08 (com.genesyslab.platform.routing.protocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,019 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: logging.jar of 8.5.302.08 (com.genesyslab.platform.logging by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,019 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: commonsappblock.jar of 8.5.302.08 (com.genesyslab.platform.applicationblocks.commons by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,019 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: comappblock.jar of 8.5.302.08 (com.genesyslab.platform.applicationblocks.com by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,019 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: warmstandbyappblock.jar of 8.5.302.08 (com.genesyslab.platform.applicationblocks.warmstandby by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,020 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: clusterprotocolappblock.jar of 8.5.302.08 (com.genesyslab.platform.clusterprotocol by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,020 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: messagebrokerappblock.jar of 8.5.302.08 (com.genesyslab.platform.applicationblocks.commons by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,020 INFO  .platform.commons.log.Log [main] - PSDK jar in the classpath: protocolmanagerappblock.jar of 8.5.302.08 (com.genesyslab.platform.applicationblocks.commons.protocols by Genesys Telecommunication Laboratories, Inc.)
+2018-08-15 02:36:19,021 INFO  .platform.commons.log.Log [main] - Third-party jar in the classpath: Log4j2 API of 2.11.1 (Apache Log4j API by The Apache Software Foundation)
+2018-08-15 02:36:19,021 INFO  .platform.commons.log.Log [main] - Third-party jar in the classpath: Log4j2 Core of 2.11.1 (Apache Log4j Core by The Apache Software Foundation)
+2018-08-15 02:36:19,064 DEBUG .timer.impl.SchedulerImpl [main] - Initialize PSDK-Timer
+2018-08-15 02:36:19,306 DEBUG .timer.impl.SchedulerImpl [PSDK.Timer] - Query for automatic shutdown PSDK-Timer due to inactivity
+2018-08-15 02:36:19,307 DEBUG .timer.impl.SchedulerImpl [PSDK.Timer] - Stop PSDK-Timer
+2018-08-15 02:36:19,690 INFO  ionblocks.com.ConfService [main] - COM Logging started.
+2018-08-15 02:36:19,691 INFO  ionblocks.com.ConfService [main] - Protocol state: Closed
+2018-08-15 02:36:20,089 DEBUG tadata.CfgDescriptionEnum [main] - Ref to undeclared enum: CfgLocaleDispType
+2018-08-15 02:36:20,090 DEBUG tadata.CfgDescriptionEnum [main] - Ref to undeclared enum: CfgMaxEnumType
+2018-08-15 02:36:20,092 DEBUG tadata.CfgDescriptionEnum [main] - Ref to undeclared enum: CfgLocaleExtType
+2018-08-15 02:36:20,111 DEBUG tadata.CfgDescriptionEnum [main] - Ref to undeclared enum: CfgLocaleOptType
+2018-08-15 02:36:20,122 DEBUG tadata.CfgDescriptionEnum [main] - Ref to undeclared enum: CfgLocaleDescType
+2018-08-15 02:36:20,132 DEBUG tadata.CfgDescriptionEnum [main] - Ref to undeclared enum: CfgLocaleNameType
+2018-08-15 02:36:20,173 DEBUG ns.protocol.DuplexChannel [main] - Opening channel 'psdkendpoint - tcp://atrok-dc:4250
+2018-08-15 02:36:20,174 DEBUG .protocol.AbstractChannel [main] - Channel state transition[psdkendpoint - tcp://atrok-dc:4250]: Closed->Opening
+2018-08-15 02:36:20,176 DEBUG .timer.impl.SchedulerImpl [main] - Initialize PSDK-Timer
+2018-08-15 02:36:20,177 DEBUG .timer.impl.SchedulerImpl [main] - [PSDK.Timer] Scheduled openTimeoutTask[atrok-dc:4250] ; delay:30000; queue:1
+2018-08-15 02:36:20,206 DEBUG n.impl.AbstractConnection [main] - Assigned Attribute's handlers for connection configuration
+2018-08-15 02:36:20,213 DEBUG netty.NettyConnectionImpl [main] - Opening Netty connection [Closed]/0
+2018-08-15 02:36:20,213 INFO  n.impl.AbstractConnection [main] - ConnState transition. 'Closed' -> 'Opening' for '[Opening]/0
+2018-08-15 02:36:20,215 INFO  netty.NettyConnectionImpl [main] - Using Netty with 'NioTransport'.
+2018-08-15 02:36:20,215 DEBUG tion.impl.netty.NettyUtil [main] - Creating default client channel factory
+2018-08-15 02:36:20,325 DEBUG aultSocketAddressResolver [Worker 1-17] - Found 4 IPv4 address(es) for host "atrok-dc"
+2018-08-15 02:36:20,338 DEBUG netty.NettyConnectionImpl [Worker 1-17] - Trying to open connection to Atrok-DC/172.21.80.39:4250
+2018-08-15 02:36:20,367 DEBUG netty.NettyConnectionImpl [New I/O worker #1] - Connection [Opening]/0 is established
+2018-08-15 02:36:20,369 INFO  n.impl.AbstractConnection [New I/O worker #1] - ConnState transition. 'Opening' -> 'Opened' for 'atrok-dc/172.21.80.39:4250<172.21.80.39:52477[Opened]/0
+2018-08-15 02:36:20,370 INFO  ns.protocol.DuplexChannel [Worker 1-17] - Channel connection is opened 'atrok-dc/172.21.80.39:4250<172.21.80.39:52477[Opened]/0
+2018-08-15 02:36:20,373 DEBUG l$HandshakeStepGetVersion [Worker 1-17] - BasicClientHandshakeStep.initState()
+2018-08-15 02:36:20,374 INFO  l$HandshakeStepGetVersion [Worker 1-17] - Trying obtain server protocol version...
+2018-08-15 02:36:20,377 DEBUG ns.protocol.ClientChannel [Worker 1-17] - Message got new reference: 1
+2018-08-15 02:36:20,381 DEBUG ns.protocol.DuplexChannel [Worker 1-17] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestProtocolVersion' (49) attributes:
+IATRCFG_SECURELIBRARY [int] = 1
+SATRCFG_APPNAME [str] = "columnChanger"
+IATRCFG_REQUESTID [int] = 1
+SATRCFG_PROTOCOLEX [str] = "CfgProtocol 5.1.3.80"
+2018-08-15 02:36:20,409 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #50
+2018-08-15 02:36:20,411 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventProtocolVersion' (50) attributes:
+IATRCFG_REQUESTID [int] = 1
+IATRCFG_SERVERENCODING [int] = 1033
+SATRCFG_PROTOCOL [str] = "CfgProtocol 5.1.3.80"
+2018-08-15 02:36:20,412 DEBUG keStepInitProtocolVersion [New I/O worker #1] - Re-enabling ADDP.
+2018-08-15 02:36:20,412 INFO  keStepInitProtocolVersion [New I/O worker #1] - Server Protocol version <CfgProtocol 5.1.3.80> is obtained.
+2018-08-15 02:36:20,417 INFO  keStepInitProtocolVersion [New I/O worker #1] - Aes Codec is activated.
+2018-08-15 02:36:20,417 INFO  keStepInitProtocolVersion [New I/O worker #1] - Session usage is not enforced.
+2018-08-15 02:36:20,419 DEBUG ndshakeStepRegisterClient [New I/O worker #1] - BasicClientHandshakeStep.initState()
+2018-08-15 02:36:20,419 INFO  ndshakeStepRegisterClient [New I/O worker #1] - Trying to register client...
+2018-08-15 02:36:20,425 DEBUG otocol.ConfServerProtocol [New I/O worker #1] - Server protocol version (380) supports Kerberos
+2018-08-15 02:36:20,425 DEBUG ns.protocol.ClientChannel [New I/O worker #1] - Message got new reference: 2
+2018-08-15 02:36:20,425 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestRegisterClient' (3) attributes:
+IATRCFG_APPTYPE [int] = 108
+SATRCFG_APPNAME [str] = "columnChanger"
+SATRCFG_USERNAME [str] = "default"
+IATRCFG_REQUESTID [int] = 2
+SATRCFG_USERPASS [AesString] = [output suppressed]
+IATRCFG_CLIENTENCODING [int] = 1033
+SATRCFG_PROTOCOLEX [str] = "CfgProtocol 5.1.3.80"
+2018-08-15 02:36:20,505 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 50
+2018-08-15 02:36:20,513 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #19
+2018-08-15 02:36:20,518 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventClientRegistered' (19) attributes:
+SATRCFG_SCHEMAVERSION [str] = "8.5.000.01"
+IATRCFG_REQUESTID [int] = 2
+IATRCFG_BACKUPCFGSERVERDBID [int] = 0
+IATRCFG_EXTERNALAUTH [int] = 0
+IATRCFG_CRYPTPASSW [int] = 1
+IATRCFG_CFGSERVERDBID [int] = 99
+IATRCFG_SERVERENCODING [int] = 1033
+SATRCFG_LOCALEVERSION [str] = "8.1.100.08"
+SATRCFG_PROTOCOLEX [str] = "CfgProtocol 5.1.3.80"
+SATRCFG_PROTOCOL [str] = "CfgProtocol 5.1.3.54"
+IATRCFG_SESSIONNUMBER [int] = 23
+IATRCFG_UNSOLEVENTNUM [int] = 83951093
+2018-08-15 02:36:20,519 INFO  ndshakeStepRegisterClient [New I/O worker #1] - Client is registered, sessionId: '23'.
+2018-08-15 02:36:20,519 INFO  ndshakeStepRegisterClient [New I/O worker #1] - LastUpdateId (83 951 093) is set.
+2018-08-15 02:36:20,520 INFO  otocol.ConfServerProtocol [New I/O worker #1] - Client protocol version: CfgProtocol 5.1.3.80
+2018-08-15 02:36:20,520 INFO  otocol.ConfServerProtocol [New I/O worker #1] - Server protocol version: CfgProtocol 5.1.3.80
+2018-08-15 02:36:20,520 INFO  otocol.ConfServerProtocol [New I/O worker #1] - Bound  protocol version: CfgProtocol 5.1.3.80
+2018-08-15 02:36:20,520 INFO  otocol.ConfServerProtocol [New I/O worker #1] - CfgMetadata(protocol v380, 44 obj ids, 148 obj names)
+2018-08-15 02:36:20,535 DEBUG .timer.impl.SchedulerImpl [New I/O worker #1] - [PSDK.Timer] Canceled task: openTimeoutTask[atrok-dc:4250<172.21.80.39:52477] ; queue:0
+2018-08-15 02:36:20,535 DEBUG .protocol.AbstractChannel [New I/O worker #1] - Channel state transition[psdkendpoint - tcp://atrok-dc:4250]: Opening->Opened
+2018-08-15 02:36:20,535 DEBUG .protocol.AbstractChannel [New I/O worker #1] - Firing 'onChannelOpened'
+2018-08-15 02:36:20,541 DEBUG eading.InvokerFactoryImpl [New I/O worker #1] - [InvokerFactory:default] increased invoker usage counter: 1 (registry size: 1)
+2018-08-15 02:36:20,542 INFO  ading.SingleThreadInvoker [com.genesyslab.PCT.invoker.default] - SingleThreadInvoker('default') has started
+2018-08-15 02:36:20,542 DEBUG ns.protocol.ClientChannel [New I/O worker #1] - Finalizing handshake...
+2018-08-15 02:36:20,542 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 19
+2018-08-15 02:36:20,545 DEBUG s.protocol.ListenerHelper [com.genesyslab.PCT.invoker.default] - Notifying 3 listener(s)
+2018-08-15 02:36:20,545 DEBUG s.protocol.ListenerHelper [com.genesyslab.PCT.invoker.default] - 3 listener(s) understood the event right
+2018-08-15 02:36:20,563 INFO  ionblocks.com.ConfService [main] - Retrieve object using query: 
+
+Query object type: CFGPerson
+Query filters:
+  Key: dbid, Value: 27845;  ExtraKey: object_path, Value: 0;  ExtraKey: read_folder_dbid, Value: 0;
+2018-08-15 02:36:20,567 DEBUG ionblocks.com.ConfService [main] - Querying configuration server...
+2018-08-15 02:36:20,568 DEBUG ns.protocol.ClientChannel [main] - Requesting with RequestReadObjects
+2018-08-15 02:36:20,568 DEBUG ns.protocol.ClientChannel [main] - Message got new reference: 3
+2018-08-15 02:36:20,580 DEBUG ns.protocol.DuplexChannel [main] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestReadObjects' (10) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+IATRCFG_REQUESTID [int] = 3
+BATRCFG_FILTER [bstr] = KVList: 
+	'dbid' [int] = 27845
+	'object_path' [int] = 0
+	'read_folder_dbid' [int] = 0
+2018-08-15 02:36:20,583 DEBUG ns.protocol.ClientChannel [main] - Waiting for response. Correlator Entry for request RequestReadObjects/10, ref=3
+2018-08-15 02:36:20,858 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #73
+2018-08-15 02:36:20,870 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsRead' (73) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+SATRCFG_OBJECTPATH [PathArray] = \Configuration\Resources\Persons\Admin_Agent_Accounts_Prod\Support Teams Agent Accounts\CICT Agents
+SATRCFG_FOLDERDBIDS [str] = [1328]
+IATRCFG_REQUESTID [int] = 3
+IATRCFG_TOTALCOUNT [int] = 1
+IATRCFG_OBJECTCOUNT [int] = 1
+	SATRCFG_OBJECT <value is not yet parsed>
+	SATRCFG_OBJECT(ObjectsV7) <value is not yet parsed>
+2018-08-15 02:36:20,870 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 73
+2018-08-15 02:36:20,871 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #20
+2018-08-15 02:36:20,871 DEBUG ns.protocol.ClientChannel [main] - Got response, id: 73
+2018-08-15 02:36:20,872 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+IATRCFG_REQUESTID [int] = 3
+2018-08-15 02:36:20,872 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 20
+2018-08-15 02:36:20,873 DEBUG .com.runtime.EventService [com.genesyslab.PCT.invoker.default] - Received message 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+IATRCFG_REQUESTID [int] = 3
+2018-08-15 02:36:21,008 INFO  ionblocks.com.ConfService [main] - Retrieved object [CFGPerson], dbid: [27 845]
+2018-08-15 02:36:21,017 DEBUG ionblocks.com.ConfService [main] - Object content: 
+
+Configuration object: type = CfgPerson, properties = {
+    DBID : 27845
+    tenantDBID : 101
+    lastName : Morgan
+    firstName : Dave PI
+    employeeID : 05999
+    userName : a202786_pi
+    password : [output suppressed]
+    appRanks : StructList(CfgPersonRank)[0] = {
+    }
+    isAgent : CFGTrue
+    agentInfo : Configuration object: type = CfgAgentInfo, properties = {
+        placeDBID : 0
+        skillLevels : StructList(CfgSkillLevel)[3] = {
+            Configuration object: type = CfgSkillLevel, properties = {
+                skillDBID : 448
+                level : 0
+            }
+            Configuration object: type = CfgSkillLevel, properties = {
+                skillDBID : 1710
+                level : 0
+            }
+            Configuration object: type = CfgSkillLevel, properties = {
+                skillDBID : 214
+                level : 0
+            }
+        }
+        agentLogins : StructList(CfgAgentLoginInfo)[5] = {
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30357
+                wrapupTime : 0
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30358
+                wrapupTime : 0
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30359
+                wrapupTime : 0
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 150178
+                wrapupTime : 0
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 150488
+                wrapupTime : 0
+            }
+        }
+        capacityRuleDBID : 0
+        siteDBID : 0
+        contractDBID : 0
+    }
+    isAdmin : CFGFalse
+    state : CFGEnabled
+    userProperties : KVList: 
+    	'interaction-workspace' [lst] = KVList:
+    		'agent-status.enabled-actions-global' [str] = "Ready,AfterCallWork,NotReadyReason,NotReady,Logon"
+    		'application.last-layout' [str] = "main-window"
+    		'campaign.displayed-columns' [str] = "State,Name,DeliveryMode,Date,Description"
+    		'campaign.displayed-columns-widths' [str] = "NaN,NaN,NaN,NaN,NaN"
+    		'contact.directory-search-attributes' [str] = "EmailAddress,MID,PhoneNumber,FirstName,LastName"
+    		'contact-history.contact-directory.advanced-search.recent-attributes' [str] = "LastName;FirstName;"
+    		'contact-history.GlobalSearch.advanced-search.recent-attributes' [str] = "Status;StartDate;"
+    		'contact.lookup.enable' [str] = "true"
+    		'contact.orientation-main-contact' [str] = "Horizontal"
+    		'contact.size-primary-panel-main-contact' [str] = "0;0"
+    		'contact.size-second-panel-main-contact' [str] = "0;0"
+    		'contact.visibility-second-panel-main-contact' [str] = "Visible"
+    		'custom.gvm_mailbox' [str] = "05999"
+    		'disaster-recovery.peer-site' [str] = "OMA_Agent_Switch3"
+    		'disaster-recovery.preferred-site' [str] = "RTP_Agent_Switch3"
+    		'gadget-statistics.non-scrolling-stats' [str] = "CurrMaxWait_ISGHD-Id=RTR_PI_ISGHD_TOTAL,CCS_CurrMaxWait_ATS_SVC-Id=RTR_PI_ATS_SERVICE_TOTAL,CCS_CurrMaxWait_ATS_VIP-Id=RTR_PI_ATS_HNW_BRK_TOTAL,CCS_CurrMaxWait_ATSHD-Id=RTR_PI_ATSHD_TOTAL,CurrentCallsWait_ECS_HD-Id=RTR_PI_ECSHD_Total,CurrentCallsWait_SPS-Id=RTR_PI_SPS_ALL_TOTAL"
+    		'gadget-statistics.show' [str] = "True"
+    		'gadget-statistics.topmost' [str] = "False"
+    		'gadget-statistics.window-location' [str] = "44;109"
+    		'gadget.topmost' [str] = "False"
+    		'gadget.window-location' [str] = "NaN;20"
+    		'general.configuration-object-collection-cache-timeout' [str] = "0"
+    		'gui.editor-zoom' [str] = "100"
+    		'gui.theme' [str] = "Blue"
+    		'history.details-panel-height' [str] = "0.51"
+    		'history.list-panel-height' [str] = "0.48"
+    		'history.visibility-details-panel' [str] = "Visible"
+    		'interaction-bar.quick-access-modes.setting.email' [str] = "Pinned"
+    		'interaction-bar.quick-access-modes.setting.voice' [str] = "Pinned"
+    		'interaction.bottom-panel-height' [str] = "0.26"
+    		'interaction-management.tab-selected' [str] = "MyWorkbinsExplorerView"
+    		'InteractionOutboundEmail.base-panel-width' [str] = "368"
+    		'InteractionOutboundEmail.information-panel-width' [str] = "472"
+    		'InteractionOutboundEmail.last-information-panel' [str] = "InteractionContainerView"
+    		'InteractionOutboundEmail.show-information-panel' [str] = "True"
+    		'InteractionOutboundEmail.window-location' [str] = "25;-2;852;760"
+    		'interaction.top-panel-height' [str] = "0.74"
+    		'InteractionVoice.base-panel-width' [str] = "368"
+    		'InteractionVoice.information-panel-width' [str] = "362"
+    		'InteractionVoice.last-information-panel' [str] = "ResponsesView"
+    		'InteractionVoice.show-information-panel' [str] = "True"
+    		'InteractionVoice.window-location' [str] = "224;217;762;600"
+    		'login.available-place-groups' [str] = "$All$"
+    		'login.chat.isselected' [str] = "True"
+    		'login.email.isselected' [str] = "True"
+    		'login.MMK_FID1_SIPSwitch.voice.1.dn-agent-login' [str] = "05999"
+    		'login.MMK_FID1_SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.MMK_FID1_SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.MMK_FID1_SIPSwitch.voice.1.dn-sip-phone-number' [str] = "6021911"
+    		'login.MMK_FID2_SIPSwitch.voice.1.dn-agent-login' [str] = "05999"
+    		'login.MMK_FID2_SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.MMK_FID2_SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.MMK_FID2_SIPSwitch.voice.1.dn-sip-phone-number' [str] = "6175632178"
+    		'login.OMA-Agent3-SIPSwitch.voice.1.dn-agent-login' [str] = "05999"
+    		'login.OMA-Agent3-SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.OMA-Agent3-SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.OMA-Agent3-SIPSwitch.voice.1.dn-sip-phone-number' [str] = ""
+    		'login.place-selection-type' [str] = "Place, PlaceGroup"
+    		'login.RTP-Agent3-SIPSwitch.voice.1.dn-agent-login' [str] = "05999"
+    		'login.RTP-Agent3-SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.RTP-Agent3-SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.RTP-Agent3-SIPSwitch.voice.1.dn-sip-phone-number' [str] = "6175632178"
+    		'login.RTP_FID1_SIPSwitch.voice.1.dn-agent-login' [str] = "05999"
+    		'login.RTP_FID1_SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.RTP_FID1_SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.RTP_FID1_SIPSwitch.voice.1.dn-sip-phone-number' [str] = ""
+    		'login.RTP_FID2_SIPSwitch.voice.1.dn-agent-login' [str] = "05999"
+    		'login.RTP_FID2_SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.RTP_FID2_SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.RTP_FID2_SIPSwitch.voice.1.dn-sip-phone-number' [str] = "8571008"
+    		'login.sms.isselected' [str] = "True"
+    		'login.store-recent-place' [str] = "false"
+    		'login.webcallback.isselected' [str] = "True"
+    		'main-window.height-with-worksheet-opened' [str] = "591"
+    		'main-window.last-worksheet-view' [str] = "MyMessagesView"
+    		'main-window.show-worksheet' [str] = "True"
+    		'main-window.topmost' [str] = "False"
+    		'spellchecker.current-dictionary' [str] = "HunSpellDic_en-US"
+    		'spellchecker.personal-dictionary' [str] = ""
+    		'standard-response.tree.columns' [str] = "Response=250=-1"
+    		'standard-response.visibility-details-panel' [str] = "Invisible"
+    		'teamcommunicator.interactionSelectorFilter' [str] = "ShowAll"
+    		'teamcommunicator.InteractionShowByGroup' [str] = "False"
+    		'teamcommunicator.interactionShowMode' [str] = "showHistoric"
+    		'teamcommunicator.mainSelectorFilter' [str] = "ShowAll"
+    		'teamcommunicator.mainShowByGroup' [str] = "False"
+    		'teamcommunicator.mainShowMode' [str] = "showHistoric"
+    		'toolbar.window-autohide' [str] = "False"
+    		'toolbar.window-docked' [str] = "False"
+    		'toolbar.window-location' [str] = "81;55;1036;592;0"
+    		'workbins.my-team-workbin-selected' [str] = "15514,PI_Email.IPD_PI_Email_SMTP_In.Draft_PI"
+    		'workbins.workbin-selected' [str] = "PI_Email.IPD_PI_Email_SMTP_In.Draft_PI"
+    	'interaction-workspace-recents' [lst] = KVList:
+    		'customcontactAF26E437867D9E6F6AB874AC759F1F9755A55219' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontactA57957135616F650DED7679AE6F492307E4C03C6' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontactD528FCA3B163C05703E88B5285440BEC28ECF185' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 613 bytes left out of 763]
+    		'customcontactE12716FA2878C1A3334E974E054B14F88D7DEAD8' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontactF78DE2EF85795B4ABDC2F1DD4CDE9BA234570EF1' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontact02FF3B89801B2A8361203D305C4F0B978CC89B79' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontact0266BCE846BA3585537A053C8FE923AB1D40E5D1' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontact44D17226255FDBF7949672F8B9CED1235548AE35' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 625 bytes left out of 775]
+    		'customcontact957CE3F8E7DC7D8AE1262848C16B76E06F898F42' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 650 bytes left out of 800]
+    emailAddress : dave.morgan@fmr.com
+    externalID : a202786
+    isExternalAuth : CFGFalse
+    changePasswordOnNextLogin : CFGFalse
+    passwordHashAlgorithm : 1
+    PasswordUpdatingDate : 1388439462
+}
+2018-08-15 02:36:21,025 INFO  ionblocks.com.ConfService [main] - Retrieve object using query: 
+
+Query object type: CFGPerson
+Query filters:
+  Key: dbid, Value: 27905;  ExtraKey: object_path, Value: 0;  ExtraKey: read_folder_dbid, Value: 0;
+2018-08-15 02:36:21,025 DEBUG ionblocks.com.ConfService [main] - Querying configuration server...
+2018-08-15 02:36:21,025 DEBUG ns.protocol.ClientChannel [main] - Requesting with RequestReadObjects
+2018-08-15 02:36:21,025 DEBUG ns.protocol.ClientChannel [main] - Message got new reference: 4
+2018-08-15 02:36:21,026 DEBUG ns.protocol.DuplexChannel [main] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestReadObjects' (10) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+IATRCFG_REQUESTID [int] = 4
+BATRCFG_FILTER [bstr] = KVList: 
+	'dbid' [int] = 27905
+	'object_path' [int] = 0
+	'read_folder_dbid' [int] = 0
+2018-08-15 02:36:21,026 DEBUG ns.protocol.ClientChannel [main] - Waiting for response. Correlator Entry for request RequestReadObjects/10, ref=4
+2018-08-15 02:36:21,028 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #73
+2018-08-15 02:36:21,030 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsRead' (73) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+SATRCFG_OBJECTPATH [PathArray] = \Configuration\Resources\Persons\PI_Agents\PI_COV\PI_COV_DS
+SATRCFG_FOLDERDBIDS [str] = [7759]
+IATRCFG_REQUESTID [int] = 4
+IATRCFG_TOTALCOUNT [int] = 1
+IATRCFG_OBJECTCOUNT [int] = 1
+	SATRCFG_OBJECT <value is not yet parsed>
+	SATRCFG_OBJECT(ObjectsV7) <value is not yet parsed>
+2018-08-15 02:36:21,031 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 73
+2018-08-15 02:36:21,031 DEBUG ns.protocol.ClientChannel [main] - Got response, id: 73
+2018-08-15 02:36:21,031 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #20
+2018-08-15 02:36:21,031 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+IATRCFG_REQUESTID [int] = 4
+2018-08-15 02:36:21,031 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 20
+2018-08-15 02:36:21,031 DEBUG .com.runtime.EventService [com.genesyslab.PCT.invoker.default] - Received message 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 3
+IATRCFG_REQUESTID [int] = 4
+2018-08-15 02:36:21,130 INFO  ionblocks.com.ConfService [main] - Retrieved object [CFGPerson], dbid: [27 905]
+2018-08-15 02:36:21,136 DEBUG ionblocks.com.ConfService [main] - Object content: 
+
+Configuration object: type = CfgPerson, properties = {
+    DBID : 27905
+    tenantDBID : 101
+    lastName : Gehri
+    firstName : John
+    employeeID : 11985
+    userName : a365239
+    password : [output suppressed]
+    appRanks : StructList(CfgPersonRank)[0] = {
+    }
+    isAgent : CFGTrue
+    agentInfo : Configuration object: type = CfgAgentInfo, properties = {
+        placeDBID : 0
+        skillLevels : StructList(CfgSkillLevel)[3] = {
+            Configuration object: type = CfgSkillLevel, properties = {
+                skillDBID : 115
+                level : 1
+            }
+            Configuration object: type = CfgSkillLevel, properties = {
+                skillDBID : 1810
+                level : 7
+            }
+            Configuration object: type = CfgSkillLevel, properties = {
+                skillDBID : 1247
+                level : 7
+            }
+        }
+        agentLogins : StructList(CfgAgentLoginInfo)[6] = {
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30514
+                wrapupTime : 1000
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30622
+                wrapupTime : 1000
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30730
+                wrapupTime : 1000
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 30838
+                wrapupTime : 1000
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 182510
+                wrapupTime : 1000
+            }
+            Configuration object: type = CfgAgentLoginInfo, properties = {
+                agentLoginDBID : 182369
+                wrapupTime : 1000
+            }
+        }
+        capacityRuleDBID : 0
+        siteDBID : 0
+        contractDBID : 0
+    }
+    isAdmin : CFGFalse
+    state : CFGEnabled
+    userProperties : KVList: 
+    	'interaction-workspace' [lst] = KVList:
+    		'application.last-layout' [str] = "main-window"
+    		'campaign.displayed-columns' [str] = "State,Name,DeliveryMode,Date,Description"
+    		'campaign.displayed-columns-widths' [str] = "NaN,NaN,NaN,NaN,NaN"
+    		'contact.directory-permissions.MID' [str] = ""
+    		'contact.lookup.enable' [str] = "true"
+    		'contact.orientation-main-contact' [str] = "Horizontal"
+    		'contact.size-primary-panel-main-contact' [str] = "0;0"
+    		'contact.size-second-panel-main-contact' [str] = "0;0"
+    		'contact.visibility-second-panel-main-contact' [str] = "Collapsed"
+    		'custom.gvm_mailbox' [str] = "11985"
+    		'gadget-statistics.non-scrolling-stats' [str] = ""
+    		'gadget-statistics.show' [str] = "True"
+    		'gadget-statistics.topmost' [str] = "False"
+    		'gadget-statistics.window-location' [str] = "2722;39"
+    		'gadget.topmost' [str] = "False"
+    		'gadget.window-location' [str] = "NaN;20"
+    		'gui.editor-zoom' [str] = "100"
+    		'gui.theme' [str] = "Blue"
+    		'interaction-bar.quick-access-modes.setting.email' [str] = "Pinned"
+    		'interaction-bar.quick-access-modes.setting.voice' [str] = "Pinned"
+    		'interaction-management.tab-selected' [str] = "MyWorkbinsExplorerView"
+    		'InteractionOutboundEmail.information-panel-width' [str] = "430"
+    		'InteractionOutboundEmail.show-information-panel' [str] = "False"
+    		'InteractionOutboundEmail.window-location' [str] = "314;86;490;600"
+    		'InteractionVoice.information-panel-width' [str] = "430"
+    		'InteractionVoice.show-information-panel' [str] = "False"
+    		'InteractionVoice.window-location' [str] = "75;75;490;556"
+    		'login.email.isselected' [str] = "True"
+    		'login.OMA-Agent2-SIPSwitch.voice.1.dn-agent-login' [str] = "11985"
+    		'login.OMA-Agent2-SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.OMA-Agent2-SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.OMA-Agent2-SIPSwitch.voice.1.dn-sip-phone-number' [str] = "5132542806"
+    		'login.RTP-Agent2-SIPSwitch.voice.1.dn-agent-login' [str] = "11985"
+    		'login.RTP-Agent2-SIPSwitch.voice.1.dn-isselected' [str] = "True"
+    		'login.RTP-Agent2-SIPSwitch.voice.1.dn-queue' [str] = ""
+    		'login.RTP-Agent2-SIPSwitch.voice.1.dn-sip-phone-number' [str] = ""
+    		'main-window.height-with-worksheet-opened' [str] = "554"
+    		'main-window.last-worksheet-view' [str] = ""
+    		'main-window.show-worksheet' [str] = "False"
+    		'main-window.topmost' [str] = "False"
+    		'spellchecker.current-dictionary' [str] = "HunSpellDic_en-US"
+    		'spellchecker.personal-dictionary' [str] = ""
+    		'standard-response.visibility-details-panel' [str] = "Invisible"
+    		'teamcommunicator.interactionSelectorFilter' [str] = "ShowAll"
+    		'teamcommunicator.InteractionShowByGroup' [str] = "False"
+    		'teamcommunicator.interactionShowMode' [str] = "defaultMode"
+    		'teamcommunicator.mainSelectorFilter' [str] = "ShowAll"
+    		'teamcommunicator.mainShowByGroup' [str] = "False"
+    		'teamcommunicator.mainShowMode' [str] = "showFavorites"
+    		'toolbar.window-autohide' [str] = "False"
+    		'toolbar.window-docked' [str] = "False"
+    		'toolbar.window-location' [str] = "2166;170;1115;83;0"
+    	'interaction-workspace-recents' [lst] = KVList:
+    		'cfgPerson45207' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 439 bytes left out of 589]
+    		'customcontactA4571E109E7807115DD5C04E8824AFEE8751C191' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 678 bytes left out of 828]
+    		'customcontactC35793889FB50AB33BE62C4AF54A95E83A31642A' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 675 bytes left out of 825]
+    		'customcontactDBF046520B998B29F72637FA3C8651FBB9E127A6' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 653 bytes left out of 803]
+    		'customcontact139A677A3D86CD05558AF0C561D6368B10AD35F1' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 647 bytes left out of 797]
+    		'customcontact2D47B63876ABF49B1F6A32C660DE4CC82949F313' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 682 bytes left out of 832]
+    		'customcontact4D7D2994DF0B41AA07BE4CBF19EF07DA71B5A34A' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 701 bytes left out of 851]
+    		'customcontact42771042AF73789A84B925BC4445FBEA92E8D100' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 676 bytes left out of 826]
+    		'customcontact6814564C65BEDC3AEC9AA541423102F06A7F4497' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 675 bytes left out of 825]
+    		'customcontact75E61178A22B2892BE17798C0EFAB6EA7D68EFB2' [bstr] = 
+    	   0x3c 0x3f 0x78 0x6d 0x6c 0x20 0x76 0x65 0x72 0x73
+    	   0x69 0x6f 0x6e 0x3d 0x22 0x31 0x2e 0x30 0x22 0x3f
+    	   0x3e 0x0d 0x0a 0x3c 0x54 0x43 0x46 0x61 0x76 0x6f
+    	   0x72 0x69 0x74 0x65 0x52 0x65 0x63 0x6f 0x72 0x64
+    	   0x20 0x78 0x6d 0x6c 0x6e 0x73 0x3a 0x78 0x73 0x69
+    	   0x3d 0x22 0x68 0x74 0x74 0x70 0x3a 0x2f 0x2f 0x77
+    	   0x77 0x77 0x2e 0x77 0x33 0x2e 0x6f 0x72 0x67 0x2f
+    	   0x32 0x30 0x30 0x31 0x2f 0x58 0x4d 0x4c 0x53 0x63
+    	   0x68 0x65 0x6d 0x61 0x2d 0x69 0x6e 0x73 0x74 0x61
+    	   0x6e 0x63 0x65 0x22 0x20 0x78 0x6d 0x6c 0x6e 0x73
+    	   0x3a 0x78 0x73 0x64 0x3d 0x22 0x68 0x74 0x74 0x70
+    	   0x3a 0x2f 0x2f 0x77 0x77 0x77 0x2e 0x77 0x33 0x2e
+    	   0x6f 0x72 0x67 0x2f 0x32 0x30 0x30 0x31 0x2f 0x58
+    	   0x4d 0x4c 0x53 0x63 0x68 0x65 0x6d 0x61 0x22 0x3e
+    	   0x0d 0x0a 0x20 0x20 0x3c 0x54 0x79 0x70 0x65 0x3e
+    	   ... [output truncated, 677 bytes left out of 827]
+    emailAddress : a365239@fmr.com
+    externalID : a365239
+    isExternalAuth : CFGFalse
+    changePasswordOnNextLogin : CFGFalse
+    passwordHashAlgorithm : 1
+    PasswordUpdatingDate : 1396321810
+}
+2018-08-15 02:36:21,141 INFO  ionblocks.com.ConfService [main] - Retrieve object using query: 
+
+Query object type: CFGAgentGroup
+Query filters:
+  Key: dbid, Value: 1913;  ExtraKey: object_path, Value: 0;  ExtraKey: read_folder_dbid, Value: 0;
+2018-08-15 02:36:21,141 DEBUG ionblocks.com.ConfService [main] - Querying configuration server...
+2018-08-15 02:36:21,141 DEBUG ns.protocol.ClientChannel [main] - Requesting with RequestReadObjects
+2018-08-15 02:36:21,142 DEBUG ns.protocol.ClientChannel [main] - Message got new reference: 5
+2018-08-15 02:36:21,142 DEBUG ns.protocol.DuplexChannel [main] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestReadObjects' (10) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 5
+BATRCFG_FILTER [bstr] = KVList: 
+	'dbid' [int] = 1913
+	'object_path' [int] = 0
+	'read_folder_dbid' [int] = 0
+2018-08-15 02:36:21,142 DEBUG ns.protocol.ClientChannel [main] - Waiting for response. Correlator Entry for request RequestReadObjects/10, ref=5
+2018-08-15 02:36:21,143 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #73
+2018-08-15 02:36:21,145 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsRead' (73) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+SATRCFG_OBJECTPATH [PathArray] = \Configuration\Resources\Agent Groups\Site-Based Teams\PI Agent Group Settings\PI Testing Teams
+SATRCFG_FOLDERDBIDS [str] = [1854]
+IATRCFG_REQUESTID [int] = 5
+IATRCFG_TOTALCOUNT [int] = 1
+IATRCFG_OBJECTCOUNT [int] = 1
+	SATRCFG_OBJECT <value is not yet parsed>
+	SATRCFG_OBJECT(ObjectsV7) <value is not yet parsed>
+2018-08-15 02:36:21,145 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 73
+2018-08-15 02:36:21,145 DEBUG ns.protocol.ClientChannel [main] - Got response, id: 73
+2018-08-15 02:36:21,146 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #20
+2018-08-15 02:36:21,146 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 5
+2018-08-15 02:36:21,146 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 20
+2018-08-15 02:36:21,146 DEBUG .com.runtime.EventService [com.genesyslab.PCT.invoker.default] - Received message 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 5
+2018-08-15 02:36:21,148 INFO  ionblocks.com.ConfService [main] - Retrieved object [CFGAgentGroup], dbid: [1 913]
+2018-08-15 02:36:21,151 DEBUG ionblocks.com.ConfService [main] - Object content: 
+
+Configuration object: type = CfgAgentGroup, properties = {
+    groupInfo : Configuration object: type = CfgGroup, properties = {
+        DBID : 1913
+        tenantDBID : 101
+        name : PI Voice+Chat+Email MMK/JAX/SMT Test Team
+        capacityTableDBID : 0
+        quotaTableDBID : 0
+        state : CFGEnabled
+        userProperties : KVList: 
+        	'interaction-workspace' [lst] = KVList:
+        		'agent-status.not-ready-reasons' [str] = "Break,Lunch,Coaching,Tech Coaching,Meeting,Training,Licensing,Priority Event,Outbound,Non-Inbound Phone Support,Systems Unavailable,Loan,Ad Hoc Email-IM"
+        		'contact.all-interactions-displayed-columns' [str] = "Status,Subject,StartDate,EndDate,OwnerId,EmailAddress"
+        		'contact.all-interactions-quick-search-attributes' [str] = "Status,Subject,StartDate,EndDate,OwnerId,EmailAddress"
+        		'contact.directory-search-attributes' [str] = "EmailAddress, MID"
+        		'contact.history-displayed-columns' [str] = "Status,Subject,StartDate,EndDate,OwnerId,DispositionCode"
+        		'contact.history.filters-DispositionCode' [str] = "$All$"
+        		'custom.chat-button-agent-message' [str] = "True"
+        		'custom.chat-button-agent-notification' [str] = "True"
+        		'custom.chat-button-message' [str] = "Continue Chat session message sent"
+        		'custom.chat-button-system-message' [str] = "True"
+        		'custom.chat-button-tooltip' [str] = "Customer Status"
+        		'custom.chat.sendevent-on-release' [str] = "true"
+        		'custom.chat.sendevent-on-release-always' [str] = "true"
+        		'custom.chat-simulate-established' [str] = "True"
+        		'custom.chat-simulate-released' [str] = "True"
+        		'#custom.cpnd-override' [str] = "8006426922"
+        		'custom.email-notepad-only' [str] = "true"
+        		'custom.email-secure-readonly' [str] = "True"
+        		'custom.email.sendevent-on-release' [str] = "true"
+        		'custom.email.sendevent-on-release-always' [str] = "true"
+        		'custom.email-simulate-established' [str] = "true"
+        		'custom.email-simulate-released' [str] = "true"
+        		'#custom.gvm_group1_mailbox' [str] = "999999"
+        		'#custom.gvm_group2_mailbox' [str] = "999999"
+        		'custom.key-name-ARRstring' [str] = "RepToRep_String"
+        		'custom.kvp-values-hidden' [str] = "false"
+        		'custom.notes-timestamp-enabled' [str] = "True"
+        		'custom.profile-business-unit' [str] = "PI"
+        		'custom.transfer-reasons' [str] = "00,Trade-Equity; 01,Trade-Mutual Fund; 02,Trade-Option; 03,Trade-Fixed Income; 04,Account Info / Maintenance; 05,Tax / TRAC Inquiry; 06,Margin; 07,Guidance; 08,New Account; 09,TOA In; 10,TOA Out; 11,FAAB Inquiry; 12,MRD; 13,IRA / Keogh Inquiry; 14,Distribution; 15,Rollover; 16,New Account Inquiry; 17,Investment Product Solutions; 18,529 Plans; 19,Small Business; 20,Recharacterization; 21,Excess Contribution; 22,Other"
+        		'custom.transfer-window-timeout' [str] = "99"
+        		'custom.voice.sendevent-on-release' [str] = "true"
+        		'custom.voice.sendevent-on-release-always' [str] = "true"
+        		'disaster-recovery.enabled' [str] = "true"
+        		'disaster-recovery.peer-site' [str] = "OMA_Agent_Switch3"
+        		'disaster-recovery.preferred-site' [str] = "RTP_Agent_Switch3"
+        		'email.forward-queue' [str] = ""
+        		'email.from-addresses' [str] = "BA_IC_EMAIL_FROM_IC272_ATLANTA_ALPHARETTA"
+        		'email.max-attachments-size' [str] = "5"
+        		'email.outbound-queue' [str] = "IQ_PI_EMAIL_GENERAL_OUT_GENERIC"
+        		'email.qa-review-dispositions-business-attribute' [str] = "DispositionCodeQAreviewPI"
+        		'gadget-statistics.displayed-call-center-statistics' [str] = "CurrentAgentsLoggedInQueue_CHAT,CurrentCallsWait_CHAT,CurrMaxWait_CHAT"
+        		'gadget-statistics.displayed-kpis' [str] = "KPI-InboundCalls,KPI-TransferredCalls,KPI-OutboundCalls,KPI-InternalCalls,KPI-Login,KPI-Ready,KPI-Talk,KPI-ACW,KPI-InboundChats,KPI-TransferredChats,KPI-Chat"
+        		'interaction.case-data.content' [str] = "CaseData"
+        		'interaction.case-data.enable-url-preview' [str] = "true"
+        		'interaction.case-data.format-business-attribute' [str] = "CaseDataChat+Email+VoicePI"
+        		'interaction.disposition.is-mandatory' [str] = "false"
+        		'#interaction.disposition.value-business-attribute' [str] = "DispositionCodeEmailPI"
+        		'interaction.disposition.value-business-attribute' [str] = "DispositionCodeChat"
+        		'kpi.displayed-kpis' [str] = "KPI-InboundCalls,KPI-TransferredCalls,KPI-OutboundCalls,KPI-InternalCalls,KPI-Login,KPI-Ready,KPI-Talk,KPI-ACW,KPI-InboundChats,KPI-TransferredChats,KPI-Chat, KPI-InboundEmails, KPI-OutboundEmails"
+        		'log.All' [str] = "$Application.RootApplicationData$\log\$Agent.UserName$"
+        		'login.chat.auto-not-ready-reason' [str] = "Login"
+        		'login.email.auto-not-ready-reason' [str] = "Login"
+        		'login.voice.auto-not-ready-reason' [str] = "Login"
+        		'log.Trace' [str] = "$Application.RootApplicationData$\log\$Agent.UserName$"
+        		'spellchecker.email.prompt-on-send' [str] = "true"
+        		'standard-response.categories' [str] = "PI"
+        		'standard-response.tree.columns' [str] = "Response=250=-1"
+        		'statistics.displayed-statistics' [str] = "CurrentAgentsLoggedInQueue_CHAT, CCS_CurrentCallsWait_PI_CHAT_ALL, CCS_CurrentCallsWait_PI_CHAT_ISR, CCS_CurrentCallsWait_PI_CHAT_RET,CCS_CurrentCallsWait_PI_CHAT_SVC, CCS_CurrentCallsWait_PI_CHAT_TRD, CCS_CurrentCallsWait_PI_CHAT_ECS"
+        		'teamcommunicator.corporate-favorites' [str] = "CF1, CF2, CF3, CF4, CF5, CF6, CF7, CF8, CF9, CF11, CF12, CF13, CF14, CF15, CF16, CF18, CF19, CF20,CF26,CF29, CF32, CF33, CF34, CF35, CF36, CF37, CF38, CF39, CF40, CF41, CF42, CF43, CF44, CF45, CF47, CF48, CF49, CF50, CF51, CF52, CF53, CF54, CF55, CF56, CF58, CF59, CF60, CF61, CF62, CF63, CF64, CF65, CF66, CF67, CF68, CF69, CF70, CF71, CF72, CF73, CF74, CF75, CF76, CF77, CF78, CF79, CF80, CF81, CF84, CF85, CF86, CF87, CF89, CF91, CF92, CF93, CF94, CF95, CF96, CF98, CF99, CF100, CF101, CF102, CF103, CF104, CF107, CF108, CF109, CF110, CF111, CF112, CF113, CF114, CF115, CF116, CF117, CF118, CF121, CF122, CF123, CF126, CF127, CF128, CF129, CF130, CF132, CF133, CF134, CF135, CF137, CF138, CF139, CF140, CF141, CF143, CF144, CF145, CF146, CF147, CF148, CF149, CF150, CF151, CF152, CF153, CF154, CF155, CF156, CF157, CF158, CF159, CF160, CF161, CF162, CF163, CF164, CF165, CF166, CF167, CF169, CF170, CF171, CF172, CF173, CF174, CF175, CF178, CF179, CF180, CF181, CF182, CF183, CF184, CF185, CF186, CF187, CF188, CF189, CF190, CF191, CF192, CF193, CF194, CF195, CF196, CF197, CF198, CF199, CF200, CF201, CF202, CF203, CF204, CF205, CF206, CF207, CF208, CF209, CF210, CF211, CF212, CF213, CF214, CF215, CF216, CF217, CF218, CF219, CF220, CF221, CF222, CF223, CF224, CF225, CF226, CF228, CF232, CF236, CF237, CF238, CF239, CF240, CF242, CF243, CF245, CF246, CF247, CF250, CF251, PIchatBrokerageSales, PIchatElectronicChannelSupport, PIchatFidelityGoSls, PIchatInvestment, PIchatRetirement, PIchatService, PIchatTrading, PIchatStockPlanServices, WCCF1, WCCF2, WCCF3, WCCF4, PIE1, PIE2, PIE3, PIE4, PIE5, PIE6, PIE7, PIE16, PIE17, PIE52, PIE53, PIE54, PIE55, PIE56, PIE57, PIE58, PIE59, PIE60, PIE61, PIE62, PIE63, PIE31, PIE15, PIE13, PIE32, PIE34, PIE35, PIE36, PIE46, PIE47, PIE48, PIE49, PIE50, PIE51, PIE37, PIE40, PIE38, PIE8, PIE10, PIE11, PIE12, PIE39, PIE21, ICE1, ICE10, ICE101, ICE102, ICE103, ICE104, ICE105, ICE106, ICE107, ICE108, ICE109, ICE11, ICE110, ICE111, ICE112, ICE113, ICE114, ICE115, ICE116, ICE117, ICE118, ICE119, ICE12, ICE120, ICE121, ICE122, ICE123, ICE124, ICE125, ICE126, ICE127, ICE128, ICE129, ICE13, ICE130, ICE131, ICE132, ICE133, ICE134, ICE135, ICE136, ICE137, ICE139, ICE14, ICE140, ICE141, ICE143, ICE144, ICE145, ICE146, ICE147, ICE148, ICE149, ICE150, ICE151, ICE152, ICE153, ICE155, ICE156, ICE157, ICE158, ICE159, ICE16, ICE160, ICE161, ICE163, ICE165, ICE166, ICE167, ICE168, ICE169, ICE17, ICE171, ICE172, ICE173, ICE175, ICE176, ICE177, ICE179, ICE18, ICE181, ICE182, ICE183, ICE184, ICE185, ICE186, ICE187, ICE188, ICE189, ICE19, ICE190, ICE191, ICE192, ICE193, ICE194, ICE195, ICE196, ICE197, ICE198, ICE199, ICE2, ICE20, ICE200, ICE201, ICE202, ICE203, ICE205, ICE207, ICE208, ICE209, ICE21, ICE210, ICE211, ICE22, ICE23, ICE24, ICE25, ICE26, ICE27, ICE28, ICE29, ICE3, ICE30, ICE31, ICE33, ICE34, ICE35, ICE36, ICE37, ICE38, ICE39, ICE4, ICE40, ICE41, ICE42, ICE43, ICE44, ICE45, ICE47, ICE48, ICE49, ICE5, ICE50, ICE51, ICE52, ICE53, ICE55, ICE56, ICE58, ICE6, ICE60, ICE61, ICE63, ICE64, ICE65, ICE66, ICE67, ICE68, ICE70, ICE72, ICE73, ICE74, ICE75, ICE76, ICE77, ICE78, ICE79, ICE8, ICE80, ICE82, ICE84, ICE86, ICE87, ICE88, ICE89, ICE9, ICE90, ICE92, ICE93, ICE94, ICE95, ICE96, ICE97, ICE98, ICE99, ICE15, ICE32, ICE46, ICE54, ICE57, ICE62, ICE69, ICE7, ICE81, WIE1, WIE2, WIE3, WIE4, WIE5, WIE6, WIE7, WIE8, WIE17, WIE18, WIE19, WIE20, WIE21, WIE22, FIE1,WVCF143,WVCF130,WVCF99,WVCF107,FFASinvestmentsLifeService,FIcEIWSFixedIncome,FIcEFOCGPDG,WVCF3,FIcEISGGCERTPROCPI,BCF11,BCF6,FFASaccountsPayable,CGContributionsSPS,WVCF21,CGspsExec,FIcEISGNONFIDELMFPI,TWCF7,FFAS529support,WVCF145,WVCF116"
+        		'teamcommunicator.list-filter-showing' [str] = "Agent,Contact,CustomContact,InteractionQueue"
+        		'teamcommunicator.list-status-reachable' [str] = "Busy,NotReady"
+        		'toast.case-data.format-business-attribute' [str] = "CaseDataPreviewChat+Email+VoicePI"
+        		'views.ToolbarWorkplaceRegion.activate-order' [str] = "MyPlaceStatusView,MyContactHistory,MyStatisticsView,MyCallCenterStatisticsView,myCampaignsListView"
+        		'views.ToolbarWorkplaceRegion.order' [str] = "MyPlaceStatusView,MyContactHistory,MyStatisticsView,MyCallCenterStatisticsView,myCampaignsListView"
+        		'voice.auto-answer' [str] = "false"
+        		'voice.mark-done-on-release' [str] = "true"
+        		'workbin.email.draft' [str] = "PI_Email.IPD_PI_Email_SMTP_In.Draft_PI"
+        		'workbin.email.in-progress' [str] = "InProgress-wb"
+        		'workbin.email.QARejected' [str] = "PI_Email.IPD_PI_Email_Generic_Out.Rejected"
+        		'workbin.email.ReplyWorkbin' [str] = "InProgress-wb"
+        		'workbin.email.SPS' [str] = "PI_Email_IC.IPD_PI_Email_SMTP_In_SPS.WB_Inbox_SPS"
+        	'TServer' [lst] = KVList:
+        		'#gvm_mailbox' [str] = "50099"
+        capacityRuleDBID : 0
+        siteDBID : 0
+        contractDBID : 0
+    }
+    agentDBIDs : ConfIntegerCollection[22 item(s)] = {
+    	[01-10]: 120, 28013, 28317, 32346, 32347, 34298, 38193, 38215, 38326, 39528, 
+    	[11-20]: 46167, 46340, 47205, 47207, 48462, 48463, 52002, 58231, 58232, 58233, 
+    	[21-22]: 58853, 61152
+    }
+}
+2018-08-15 02:36:21,152 INFO  ionblocks.com.ConfService [main] - Retrieve object using query: 
+
+Query object type: CFGAgentGroup
+Query filters:
+  Key: dbid, Value: 2862;  ExtraKey: object_path, Value: 0;  ExtraKey: read_folder_dbid, Value: 0;
+2018-08-15 02:36:21,152 DEBUG ionblocks.com.ConfService [main] - Querying configuration server...
+2018-08-15 02:36:21,152 DEBUG ns.protocol.ClientChannel [main] - Requesting with RequestReadObjects
+2018-08-15 02:36:21,152 DEBUG ns.protocol.ClientChannel [main] - Message got new reference: 6
+2018-08-15 02:36:21,152 DEBUG ns.protocol.DuplexChannel [main] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestReadObjects' (10) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 6
+BATRCFG_FILTER [bstr] = KVList: 
+	'dbid' [int] = 2862
+	'object_path' [int] = 0
+	'read_folder_dbid' [int] = 0
+2018-08-15 02:36:21,153 DEBUG ns.protocol.ClientChannel [main] - Waiting for response. Correlator Entry for request RequestReadObjects/10, ref=6
+2018-08-15 02:36:21,159 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #73
+2018-08-15 02:36:21,164 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsRead' (73) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+SATRCFG_OBJECTPATH [PathArray] = \Configuration\Resources\Agent Groups\Site-Based Teams\IC Agent Group Settings
+SATRCFG_FOLDERDBIDS [str] = [1607]
+IATRCFG_REQUESTID [int] = 6
+IATRCFG_TOTALCOUNT [int] = 1
+IATRCFG_OBJECTCOUNT [int] = 1
+	SATRCFG_OBJECT <value is not yet parsed>
+	SATRCFG_OBJECT(ObjectsV7) <value is not yet parsed>
+2018-08-15 02:36:21,164 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 73
+2018-08-15 02:36:21,164 DEBUG ns.protocol.ClientChannel [main] - Got response, id: 73
+2018-08-15 02:36:21,164 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #20
+2018-08-15 02:36:21,164 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 6
+2018-08-15 02:36:21,164 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 20
+2018-08-15 02:36:21,164 DEBUG .com.runtime.EventService [com.genesyslab.PCT.invoker.default] - Received message 'EventObjectsSent' (20) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 6
+2018-08-15 02:36:21,170 INFO  ionblocks.com.ConfService [main] - Retrieved object [CFGAgentGroup], dbid: [2 862]
+2018-08-15 02:36:21,171 DEBUG ionblocks.com.ConfService [main] - Object content: 
+
+Configuration object: type = CfgAgentGroup, properties = {
+    groupInfo : Configuration object: type = CfgGroup, properties = {
+        DBID : 2862
+        tenantDBID : 101
+        name : IC Email-Voice Agent Options
+        capacityTableDBID : 0
+        quotaTableDBID : 0
+        state : CFGEnabled
+        userProperties : KVList: 
+        	'interaction-workspace' [lst] = KVList:
+        		'agent-status.not-ready-reasons' [str] = "Break,Lunch,Team Meeting,Appointment,Outbound Calling,Client Support"
+        		'contact.all-interactions-displayed-columns' [str] = "Status,Subject,StartDate,EndDate,OwnerId,EmailAddress"
+        		'contact.all-interactions-quick-search-attributes' [str] = "Status,Subject,StartDate,EndDate,OwnerId,EmailAddress"
+        		'contact.directory-search-attributes' [str] = "FirstName,LastName,PhoneNumber,EmailAddress,MID"
+        		'contact.history-displayed-columns' [str] = "Status,Subject,StartDate,EndDate,OwnerId"
+        		'contact.history.filters-DispositionCode' [str] = "$All$"
+        		'custom.dialing-auto-ready' [str] = "True"
+        		'custom.email-secure-readonly' [str] = "True"
+        		'custom.email.sendevent-on-release' [str] = "true"
+        		'custom.email.sendevent-on-release-always' [str] = "true"
+        		'custom.email-simulate-established' [str] = "true"
+        		'custom.email-simulate-released' [str] = "true"
+        		'custom.key-name-ARRstring' [str] = "RepToRep_String"
+        		'custom.kvp-values-hidden' [str] = "false"
+        		'custom.notes-timestamp-enabled' [str] = "True"
+        		'custom.transfer-reason-default' [str] = "true"
+        		'custom.transfer-reasons' [str] = "00,Branch Rep-to-Branch Rep; 01,Trade-Equity; 02,Trade-Mutual Fund; 03,Trade-Option; 04,Trade-Fixed Income; 05,Account Info / Maintenance; 06,Tax / TRAC Inquiry; 07,Margin; 08,Guidance; 09,New Account; 10,TOA In; 11,TOA Out; 12,FAAB Inquiry; 13,MRD; 14,IRA / Keogh Inquiry; 15,Distribution; 16,Rollover; 17,New Account Inquiry; 18,Investment Product Solutions; 19,529 Plans; 20,Small Business; 21,Recharacterization; 22,Excess Contribution; 23,Other"
+        		'custom.transfer-window-timeout' [str] = "99"
+        		'custom.voice.sendevent-on-release' [str] = "true"
+        		'custom.voice.sendevent-on-release-always' [str] = "true"
+        		'disaster-recovery.enabled' [str] = "true"
+        		'display-format.agent-name' [str] = "$Agent.FullName$ ext. $Agent.EmployeeId$"
+        		'#email.forward-queue' [str] = "DevEmail0308.DevEmail.IQ_SendMail"
+        		'email.max-attachments-size' [str] = "5"
+        		'email.outbound-queue' [str] = "IQ_PI_EMAIL_GENERAL_OUT_GENERIC"
+        		'email.qa-review-dispositions-business-attribute' [str] = "DispositionCodeQAreviewPI"
+        		'email.ringing-bell' [str] = ""
+        		'email.signature' [str] = "response:PI/4 Signatures/PI_Auto Name Stamp/PI_Auto Name Stamp"
+        		'gadget-statistics.displayed-kpis' [str] = ""
+        		'interaction.case-data.content' [str] = "CaseData"
+        		'interaction.case-data.enable-url-preview' [str] = "true"
+        		'interaction.case-data.format-business-attribute' [str] = "CaseDataEmail+VoicePI"
+        		'interaction.disposition.is-mandatory' [str] = "false"
+        		'#interaction.disposition.value-business-attribute' [str] = "DispositionCodePI"
+        		'interaction.reject-route' [str] = "RejectLocation"
+        		'intercommunication.voicemail.enabled-target-types' [str] = "Agent"
+        		'intercommunication.voicemail.routing-points' [str] = "1500@OMA-Agent1-SIPSwitch, 1500@RTP-Agent1-SIPSwitch, 1500@OMA-Agent2-SIPSwitch, 1500@RTP-Agent2-SIPSwitch, 1500@OMA-Agent3-SIPSwitch, 1500@RTP-Agent3-SIPSwitch, 1500@OMA-Agent4-SIPSwitch, 1500@RTP-Agent4-SIPSwitch"
+        		'kpi.displayed-kpis' [str] = "KPI-InboundCalls,KPI-TransferredCalls,KPI-OutboundCalls,KPI-InternalCalls,KPI-Login,KPI-Ready,KPI-Talk,KPI-ACW"
+        		'log.All' [str] = "$Application.RootApplicationData$\log\$Agent.UserName$"
+        		'login.email.auto-not-ready-reason' [str] = "Login"
+        		'login.voice.auto-not-ready-reason' [str] = "Login"
+        		'log.Trace' [str] = "$Application.RootApplicationData$\log\$Agent.UserName$"
+        		'spellchecker.email.prompt-on-send' [str] = "true"
+        		'standard-response.categories' [str] = "PI"
+        		'standard-response.tree.columns' [str] = "Response=250=-1"
+        		'teamcommunicator.corporate-favorites' [str] = "BCF1, BCF3, BCF4, BCF6, BCF7, BCF8, BCF10, BCF11, BCF12, CF1, CF2, CF3, CF4, CF6, CF11, CF12, CF13, CF15, CF17, CF22, CF26, CF39, CF41, CF47, CF51, CF63, CF68, CF74, CF76, CF84, CF86, CF87, CF89, CF91, CF92, CF93, CF94, CF95, CF96, CF98, CF100, CF101, CF102, CF103, CF104, CF107, CF108, CF117, CF123, CF128, CF132, CF134, CF135, CF143, CF144, CF146, CF147, CF148, CF151, CF154, CF159, CF160, CF161, CF162, CF163, CF164, CF165, CF166, CF167, CF169, CF170, CF171, CF172, CF174, CF175, CF179, CF182, CF185, CF186, CF190, CF191, CF195, CF197, CF204, CF205, CF206, CF207, CF228, CF249, CF251, PIE1, PIE2, PIE3, PIE4, PIE5, PIE6, PIE16, PIE17, PIE52, PIE53, PIE54, PIE55, PIE56, PIE57, PIE58, PIE59, PIE60, PIE61, PIE62, PIE63, PIE31, PIE15, PIE13, PIE32, PIE34, PIE35, PIE36, PIE46, PIE47, PIE48, PIE49, PIE50, PIE51, PIE37, PIE40, PIE38, PIE8, PIE10, PIE11, PIE12, PIE39, PIE21, ICE1, ICE10, ICE101, ICE102, ICE103, ICE104, ICE105, ICE106, ICE107, ICE108, ICE109, ICE11, ICE110, ICE111, ICE112, ICE113, ICE114, ICE115, ICE116, ICE117, ICE118, ICE119, ICE12, ICE120, ICE121, ICE122, ICE123, ICE124, ICE125, ICE126, ICE127, ICE128, ICE129, ICE13, ICE130, ICE131, ICE132, ICE133, ICE134, ICE135, ICE136, ICE137, ICE139, ICE14, ICE140, ICE141, ICE143, ICE144, ICE145, ICE146, ICE147, ICE148, ICE149, ICE150, ICE151, ICE152, ICE153, ICE155, ICE156, ICE157, ICE158, ICE159, ICE16, ICE160, ICE161, ICE162, ICE163, ICE165, ICE166, ICE167, ICE168, ICE169, ICE17, ICE171, ICE172, ICE173, ICE175, ICE176, ICE177, ICE179, ICE18, ICE181, ICE182, ICE183, ICE184, ICE185, ICE186, ICE187, ICE188, ICE189, ICE19, ICE190, ICE191, ICE192, ICE193, ICE194, ICE195, ICE196, ICE197, ICE198, ICE199, ICE2, ICE20, ICE200, ICE201, ICE202, ICE203, ICE205, ICE207, ICE208, ICE209, ICE21, ICE210, ICE211, ICE22, ICE23, ICE24, ICE25, ICE26, ICE27, ICE28, ICE29, ICE3, ICE30, ICE31, ICE33, ICE34, ICE35, ICE36, ICE37, ICE38, ICE39, ICE4, ICE40, ICE41, ICE42, ICE43, ICE44, ICE45, ICE47, ICE48, ICE49, ICE5, ICE50, ICE51, ICE52, ICE53, ICE55, ICE56, ICE58, ICE6, ICE60, ICE61, ICE63, ICE64, ICE65, ICE66, ICE68, ICE70, ICE71, ICE72, ICE73, ICE74, ICE75, ICE76, ICE77, ICE78, ICE79, ICE8, ICE80, ICE82, ICE83, ICE84, ICE85, ICE86, ICE87, ICE88, ICE89, ICE9, ICE90, ICE92, ICE93, ICE94, ICE95, ICE96, ICE97, ICE98, ICE99, ICE15, ICE32, ICE46, ICE54, ICE57, ICE62, ICE69, ICE7, ICE81, WIE1, WIE2, WIE3, WIE4, WIE5, WIE6, WIE7, WIE8, WIE17, WIE18, WIE19, WIE20, WIE21, WIE22, FIE1"
+        		'teamcommunicator.list-filter-showing' [str] = "Agent,CustomContact,InteractionQueue"
+        		'teamcommunicator.list-status-reachable' [str] = "Busy,NotReady"
+        		'toast.case-data.format-business-attribute' [str] = "CaseDataPreviewEmail+VoiceIC"
+        		'views.ToolbarWorkplaceRegion.activate-order' [str] = "MyPlaceStatusView,MyContactHistory,MyStatisticsView,MyCallCenterStatisticsView,myCampaignsListView"
+        		'views.ToolbarWorkplaceRegion.order' [str] = "MyPlaceStatusView,MyContactHistory,MyStatisticsView,MyCallCenterStatisticsView,myCampaignsListView"
+        		'voice.auto-answer' [str] = "false"
+        		'voice.hold-indicator-timer' [str] = "119,120"
+        		'voice.mark-done-on-release' [str] = "true"
+        		'voice.show-hold-duration' [str] = "TRUE"
+        		'workbin.email.draft' [str] = "PI_Email.IPD_PI_Email_SMTP_In.Draft_PI"
+        		'workbin.email.IC' [str] = "PI_Email_IC.IPD_PI_Email_SMTP_In_IC.WB_INBOX"
+        		'workbin.email.IC.displayed-columns' [str] = "MessageType,FromAddress,To,Subject,ReceivedAt,Team_Code"
+        		'workbin.email.IC_OFFICE' [str] = "PI_Email_IC.IPD_PI_Email_SMTP_In_IC.WB_INBOX_OFFICE"
+        		'workbin.email.in-progress' [str] = "InProgress-wb"
+        		'workbin.email.ReplyWorkbin' [str] = "InProgress-wb"
+        capacityRuleDBID : 0
+        siteDBID : 0
+        contractDBID : 0
+    }
+    agentDBIDs : ConfIntegerCollection[3358 item(s)] = {
+    	[0001-0010]: 28025, 28295, 28512, 28748, 28921, 28925, 28951, 29017, 29097, 29147, 
+    	[0011-0020]: 29188, 29233, 29271, 29284, 29504, 29513, 29515, 30201, 30240, 30403, 
+    	[0021-0030]: 30406, 30987, 31197, 31265, 31309, 31325, 31353, 31358, 32150, 32352, 
+    	[0031-0040]: 32357, 32460, 32627, 32650, 33227, 33508, 33512, 33522, 33532, 33549, 
+    	[...skipping 41 - 3320 elements...]
+    	[3321-3330]: 62391, 62430, 62437, 62575, 62584, 62594, 62617, 62618, 62619, 62622, 
+    	[3331-3340]: 62646, 62654, 62666, 62701, 62718, 62719, 62720, 62722, 62726, 62729, 
+    	[3341-3350]: 62730, 62794, 62856, 62864, 62875, 62876, 62886, 62933, 62938, 62939, 
+    	[3351-3358]: 62968, 62970, 62971, 62977, 62980, 63049, 63062, 63066
+    }
+}
+2018-08-15 02:36:21,174 INFO  icationblocks.com.CfgBase [main] - Saving object... [CFGAgentGroup], Dbid: [2 862]
+2018-08-15 02:36:21,245 DEBUG icationblocks.com.CfgBase [main] - This is an update of an existing object and it will be updated using the following delta:
+ ConfObjectDelta(CfgDeltaAgentGroup) {
+	"deltaGroupInfo" = ConfStructure(CfgDeltaGroup) {
+		"deltaGroup" = ConfStructure(CfgGroup) {
+			"DBID" = 2862
+		}
+	}
+}
+2018-08-15 02:36:21,249 DEBUG ns.protocol.ClientChannel [main] - Requesting with RequestUpdateObject
+2018-08-15 02:36:21,250 DEBUG ns.protocol.ClientChannel [main] - Message got new reference: 7
+2018-08-15 02:36:21,250 DEBUG ns.protocol.DuplexChannel [main] - Sending message to 'Configuration.ConfServer@psdkendpoint - tcp://atrok-dc:4250' message: 'RequestUpdateObject' (8) attributes:
+BATRCFG_PARAMS [bstr] = KVList: 
+	'folder_dbid' [int] = 1607
+IATRCFG_REQUESTID [int] = 7
+SATRCFG_OBJECT(ObjectDeltaV7) [bstr] = ConfObjectDelta(CfgDeltaAgentGroup) {
+	"deltaGroupInfo" = ConfStructure(CfgDeltaGroup) {
+		"deltaGroup" = ConfStructure(CfgGroup) {
+			"DBID" = 2862
+		}
+	}
+}
+2018-08-15 02:36:21,251 DEBUG ns.protocol.ClientChannel [main] - Waiting for response. Correlator Entry for request RequestUpdateObject/8, ref=7
+2018-08-15 02:36:22,520 DEBUG otocolMessagePackagerImpl [New I/O worker #1] - New message #75
+2018-08-15 02:36:22,522 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Handling message: 'EventObjectUpdated' (75) attributes:
+IATRCFG_OBJECTTYPE [int] = 5
+IATRCFG_REQUESTID [int] = 7
+IATRCFG_HISTORYLOG [bool] = false
+	SATRCFG_OBJECT <value is not yet parsed>
+	SATRCFG_OBJECT(ObjectDeltaV7) <value is not yet parsed>
+2018-08-15 02:36:22,523 DEBUG ns.protocol.ClientChannel [main] - Got response, id: 75
+2018-08-15 02:36:22,523 DEBUG ns.protocol.DuplexChannel [New I/O worker #1] - Complete message handling: 75
+2018-08-15 02:36:22,523 INFO  icationblocks.com.CfgBase [main] - Save operation successful. [CFGAgentGroup], Dbid: [2 862]
+2018-08-15 02:36:22,523 DEBUG .protocol.AbstractChannel [main] - Channel state transition[psdkendpoint - tcp://atrok-dc:4250]: Opened->Closing
+2018-08-15 02:36:22,523 DEBUG ns.protocol.DuplexChannel [main] - Closing channel 'psdkendpoint - tcp://atrok-dc:4250
+2018-08-15 02:36:22,524 DEBUG .timer.impl.SchedulerImpl [main] - [PSDK.Timer] Scheduled closeTimeoutTask [atrok-dc:4250<172.21.80.39:52477] ; delay:30000; queue:1
+2018-08-15 02:36:22,524 INFO  n.impl.AbstractConnection [main] - ConnState transition. 'Opened' -> 'Closing' for 'atrok-dc/172.21.80.39:4250<172.21.80.39:52477[Closing]/0
+2018-08-15 02:36:22,524 DEBUG n.impl.AbstractConnection [main] - Closing connection
+2018-08-15 02:36:22,525 INFO  n.impl.AbstractConnection [New I/O worker #1] - ConnState transition. 'Closing' -> 'Closed' for 'atrok-dc/172.21.80.39:4250<172.21.80.39:52477[Closed]/0
+2018-08-15 02:36:22,525 DEBUG n.impl.AbstractConnection [New I/O worker #1] - Removed Attribute's handlers from connection configuration
+2018-08-15 02:36:22,527 DEBUG .timer.impl.SchedulerImpl [Worker 1-17] - [PSDK.Timer] Canceled task: closeTimeoutTask [atrok-dc:4250<172.21.80.39:52477] ; queue:0
+2018-08-15 02:36:22,527 DEBUG .timer.impl.SchedulerImpl [New I/O worker #1] - [PSDK.Timer] Scheduled ReleaseDefaultClientFactoryTask; delay:500; queue:1
+2018-08-15 02:36:22,527 DEBUG .protocol.AbstractChannel [Worker 1-17] - Channel state transition[psdkendpoint - tcp://atrok-dc:4250]: Closing->Closed
+2018-08-15 02:36:22,527 INFO  .protocol.AbstractChannel [Worker 1-17] - Channel closed: com.genesyslab.platform.commons.protocol.ChannelClosedEvent[source=ConfServerProtocol@30f6b6a psdkendpoint - tcp://atrok-dc:4250]; prev.state: Closing; endpoint=psdkendpoint - tcp://atrok-dc:4250
+2018-08-15 02:36:22,527 DEBUG .protocol.AbstractChannel [Worker 1-17] - Firing 'onChannelClosed'
+2018-08-15 02:36:22,528 DEBUG ading.SingleThreadInvoker [Worker 1-17] - unused invoker: default
+2018-08-15 02:36:22,528 DEBUG s.protocol.ListenerHelper [com.genesyslab.PCT.invoker.default] - Notifying 3 listener(s)
+2018-08-15 02:36:22,528 DEBUG eading.InvokerFactoryImpl [Worker 1-17] - [InvokerFactory:default] decreased invoker usage counter: 0 (registry size: 1)
+2018-08-15 02:36:22,528 DEBUG s.protocol.ListenerHelper [com.genesyslab.PCT.invoker.default] - 3 listener(s) understood the event right
+2018-08-15 02:36:23,027 DEBUG .timer.impl.SchedulerImpl [PSDK.Timer] - [PSDK.Timer] Completed task: ReleaseDefaultClientFactoryTask; queue:0
+2018-08-15 02:36:23,027 DEBUG tion.impl.netty.NettyUtil [PSDK.Timer] - Shutting default client channel factory down
+2018-08-15 02:36:23,030 DEBUG ading.SingleThreadInvoker [com.genesyslab.PCT.invoker.default] - release invoker: default
+2018-08-15 02:36:23,030 DEBUG eading.InvokerFactoryImpl [com.genesyslab.PCT.invoker.default] - [InvokerFactory:default] removed invoker from registry (new size: 0)
+2018-08-15 02:36:23,030 DEBUG ading.SingleThreadInvoker [com.genesyslab.PCT.invoker.default] - stopping invoker thread: default (was released)

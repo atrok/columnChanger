@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+    <File name="File1" fileName="PSDK.log" append="false" immediateFlush="true">
+      <PatternLayout pattern="%-d %-5p %-15.25c [%t] - %m%n"/>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Logger name="com.genesyslab.platform" level="debug" additivity="false">
+      <AppenderRef ref="File1"/>
+    </Logger>
+  </Loggers>
+</Configuration>
