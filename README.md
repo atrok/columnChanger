@@ -10,6 +10,7 @@ for instance:
 mvn install:install-file -Dfile=commonsappblock.jar -DpomFile=pom/commonsappblock.pom
 
 3. build the project (there are no tests yet to run so we omit it) 
+
 mvn clean install -Dmaven.test.skip=true
 
 4. Check /target directory for 
@@ -40,10 +41,12 @@ java -jar column-changer-0.0.1-SNAPSHOT.jar
 How does it work
 =================
 
-On startup utility checks next if 2 files are in its classpath, and it fails if it can't find it.
+On startup utility checks next if log4j2.xml and application.properties files are in its classpath, and it fails if it can't find it.
+
 Files are located in the root of .jar file by default, and thus are within the scope of classpath visibility.
 
 application.properties file contains configuration server connection options, which needs to be prepopulated before utility starts.
+
 2 additional options control execution flow:
 
 execution.timeout=<int> in msec (10msec default)
@@ -60,8 +63,11 @@ execution.tasks=person,ag
 
 
 log4j2.xml file is log configuration file, and doesn't require any adjustment.
+
 ag.txt and persons.txt files contains line break separated list of dbids of agent group objects and person objects correspondingly.
+
 Utility once it's started and is succesfully connected to configuration server does the following in next order:
+
 - reads persons.txt file
 - pulls person object from configserver
 - looks for workbin related options in its interaction-workspace section
