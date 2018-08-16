@@ -248,33 +248,35 @@ public class Main {
 						for (Object recordObj : sectionKvp.getTKVValue()) {
 							KeyValuePair recordKvp = (KeyValuePair) recordObj;
 
-							if (pattern_option.matcher(recordKvp.getStringKey()).matches()) {
+							if (pattern_option.matcher(recordKvp.getStringKey()).matches()) {// workbin.email.*
 								System.out.println("            \"" + recordKvp.getStringKey() + "\" = \""
 										+ recordKvp.getStringValue() + "\"");
 
 								String optionname = recordKvp.getStringKey();
 								String[] a = optionname.split("\\.");
 
-								if (!a[2].equals("IC")) { // create option name
+							if (!a[2].equals("IC")&& a.length==3) { // create option name
 															// to be added as
 															// KeyValuePair
 									optionname = optionname + ".displayed-columns"; 
-								}
-
-								if (pattern_option1.matcher(recordKvp.getStringKey()).matches()) {
-									recordKvp.setStringValue(AG_OPTION1_VALUE);
-									System.out.println("replaced on: " + AG_OPTION1_VALUE);
-								} else {
-
 									found_options.add(new KeyValuePair(optionname, AG_OPTION_VALUE));
 
 									System.out.println("added: " + optionname + " = " + AG_OPTION_VALUE);
 								}
 
-								// dirty hacking
-								found_options.add(null);
+								if (pattern_option1.matcher(recordKvp.getStringKey()).matches()) {
+									recordKvp.setStringValue(AG_OPTION1_VALUE);
+									System.out.println("replaced on: " + AG_OPTION1_VALUE);
+									// dirty hacking
+									// adding empty value to satisfy 
+									found_options.add(null); 
+								} 
 
-							}
+								}
+
+								
+
+							
 						}
 					}
 				}
