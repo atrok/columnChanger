@@ -1,11 +1,15 @@
 package com.columnchanger;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
 import java.net.URL;
+import java.net.URLClassLoader;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
@@ -43,13 +47,19 @@ public class Main {
 	private static String AG_OPTION1_VALUE = "MessageType,FromAddress,To,Subject,ReceivedAt,Team_Code";
 	private static int EXECTMOUT = 10;
 
+	private static String APPLICATIONPROPERTIES = "application.properties";
+
+	private static ContextProperties properties = ContextProperties.getProperties();
+
 	public static void main(String[] args) {
 		initLogger();
 		Properties props = getProperties();
 		List<MyTask> tasks = new ArrayList<MyTask>();
 
 		if (props == null) {
-			System.out.println("Can't get \'application.properties\'. Check if file available in resources.");
+			System.out.println("Can't get \'" + APPLICATIONPROPERTIES + "\'. Check if file available in resources.");
+			printClasspath();
+
 			return;
 		}
 
@@ -97,8 +107,8 @@ public class Main {
 
 				}
 			} else {
-				System.out.println(
-						"Tasks aren't defined. Please add execution.tasks option to application.properties file. Values are comma-separated list of next values: person,ag");
+				System.out.println("Tasks aren't defined. Please add execution.tasks option to " + APPLICATIONPROPERTIES
+						+ " file. Values are comma-separated list of next values: person,ag");
 			}
 
 		} catch (ConfRegistrationException ex) {
@@ -114,7 +124,10 @@ public class Main {
 		InputStream is = null;
 		Properties props = null;
 		try {
-			is = Thread.currentThread().getContextClassLoader().getResourceAsStream("application.properties");
+			// is =
+			// Thread.currentThread().getContextClassLoader().getResourceAsStream("application.properties");
+
+			is = new FileInputStream(properties.propertiesPath + APPLICATIONPROPERTIES);
 
 			if (is != null) {
 				props = new Properties();
@@ -139,7 +152,7 @@ public class Main {
 
 		try {
 
-			InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream(filename);
+			InputStream is = new FileInputStream(properties.propertiesPath+filename);
 			Scanner scanner = new Scanner(is);
 			while (scanner.hasNextLine()) {
 				list.add(scanner.nextLine());
@@ -255,10 +268,12 @@ public class Main {
 								String optionname = recordKvp.getStringKey();
 								String[] a = optionname.split("\\.");
 
-							if (!a[2].equals("IC")&& a.length==3) { // create option name
-															// to be added as
-															// KeyValuePair
-									optionname = optionname + ".displayed-columns"; 
+								if (!a[2].equals("IC") && a.length == 3) { // create
+																			// option
+																			// name
+									// to be added as
+									// KeyValuePair
+									optionname = optionname + ".displayed-columns";
 									found_options.add(new KeyValuePair(optionname, AG_OPTION_VALUE));
 
 									System.out.println("added: " + optionname + " = " + AG_OPTION_VALUE);
@@ -268,15 +283,12 @@ public class Main {
 									recordKvp.setStringValue(AG_OPTION1_VALUE);
 									System.out.println("replaced on: " + AG_OPTION1_VALUE);
 									// dirty hacking
-									// adding empty value to satisfy 
-									found_options.add(null); 
-								} 
-
+									// adding empty value to satisfy
+									found_options.add(null);
 								}
 
-								
+							}
 
-							
 						}
 					}
 				}
@@ -287,10 +299,13 @@ public class Main {
 					for (KeyValuePair item : found_options) {
 						if (null != item) {
 							KeyValueCollection k = options.getList(IW_SECTION);
-							
-							if(k.getPair(item.getStringKey())!=null)
-								k.remove(item.getStringKey());// to avoid creating duplicately named options
-							
+
+							if (k.getPair(item.getStringKey()) != null)
+								k.remove(item.getStringKey());// to avoid
+																// creating
+																// duplicately
+																// named options
+
 							k.addPair(item);
 						}
 					}
@@ -340,6 +355,16 @@ public class Main {
 			}
 		}
 		Log.setLoggerFactory(new Log4J2LoggerFactoryImpl());
+	}
+
+	private static void printClasspath() {
+		ClassLoader cl = ClassLoader.getSystemClassLoader();
+
+		URL[] urls = ((URLClassLoader) cl).getURLs();
+
+		for (URL url : urls) {
+			System.out.println(url.getFile());
+		}
 	}
 
 }
