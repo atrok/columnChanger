@@ -26,20 +26,26 @@ column-changer-0.0.1-SNAPSHOT.jar
 * log4j2.xml
 * application.properties
 
-6. Make sure there is an application object of **CFGGenericType** in CME DB. If it's not in there, then a new application should be created and used for utility to log into Genesys configuration server
+6. Create **/conf** directory next to **column-changer-0.0.1-SNAPSHOT.jar** and copy there
+* ag.txt
+* persons.txt
+* application.properties
 
-7. Copy **/lib** folder and **column-changer-0.0.1-SNAPSHOT.jar** into destination directory of your choice.
+7. Make sure there is an application object of **CFGGenericType** in CME DB. If it's not in there, then a new application should be created and used for utility to log into Genesys configuration server
 
-8. start **column-changer-0.0.1-SNAPSHOT.jar**
+8. Copy **/lib** folder and **column-changer-0.0.1-SNAPSHOT.jar** into destination directory of your choice.
+
+9. start **column-changer-0.0.1-SNAPSHOT.jar**
 ```
 java -jar column-changer-0.0.1-SNAPSHOT.jar 
 ```
-9. Enjoy!
+10. Enjoy!
 
 
 ## How does it work
 
-On startup utility checks if **log4j2.xml** and **application.properties** files are in its classpath, otherwise utility won't start
+On startup utility checks if **log4j2.xml** in its classpath, otherwise utility won't start.
+Then it looks for **application.properties** file in **/conf** folder, and it won't start without it. 
 Files are located inside of **column-changer-0.0.1-SNAPSHOT.jar** file by default, and thus are within the scope of classpath visibility.
 
 **application.properties** file contains configuration server connection options, which needs to be prepopulated before utility starts.
