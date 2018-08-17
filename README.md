@@ -48,7 +48,7 @@ Files are located inside of **column-changer-0.0.1-SNAPSHOT.jar** file by defaul
 - **execution.timeout** controls the rate of update/delete/create requests submitted into configuration server by establishing a pause between requests.
 
 ```
-execution.timeout=<int> in msec (10msec default) 
+execution.timeout=<int> in msec (500 msec default) 
 ```
 - **execution.tasks** helps to control the order and volume of submitted tasks by adding/removing the keywords indicating the type of objects as the value of this option.
 
@@ -83,7 +83,7 @@ Utility once it's started and is succesfully connected to configuration server d
 - once all the Person objects are modified it takes the list of modified Person objects and submits Person objects one by one to Configuration Server
 
 Once it's done with persons it continues with Agent Groups
-- reads**ag.txt** file
+- reads **ag.txt** file
 - pulls AG from configserver
 - look for workbin related options in its *interaction-workspace* section
 - for each *workbin.email.<WB Nickname>* option in AG do the following:
