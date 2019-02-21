@@ -1,8 +1,10 @@
 package com.columnchanger;
 
+import java.util.Collection;
 import java.util.Properties;
 
 import com.genesyslab.platform.applicationblocks.com.ConfServiceFactory;
+import com.genesyslab.platform.applicationblocks.com.ConfigException;
 import com.genesyslab.platform.applicationblocks.com.IConfService;
 import com.genesyslab.platform.applicationblocks.com.objects.CfgAgentGroup;
 import com.genesyslab.platform.applicationblocks.com.objects.CfgApplication;
@@ -142,5 +144,11 @@ public class ConfigServiceHelper {
 		CfgAgentGroupQuery query = new CfgAgentGroupQuery(service);
 		query.setDbid(Integer.parseInt(dbid));
 		return query.executeSingleResult();
+	}
+
+	public Collection<CfgAgentGroup> getAllAgentGroup() throws ConfigException, InterruptedException {
+		CfgAgentGroupQuery query = new CfgAgentGroupQuery(service);
+		return query.execute();
+		
 	}
 }

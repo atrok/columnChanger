@@ -1,4 +1,4 @@
-package com.columnchanger;
+package com.columnchanger.services.fidelity;
 
 import com.genesyslab.platform.applicationblocks.com.CfgObject;
 

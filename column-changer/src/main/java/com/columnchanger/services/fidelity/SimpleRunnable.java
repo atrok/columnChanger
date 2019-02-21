@@ -1,4 +1,4 @@
-package com.columnchanger;
+package com.columnchanger.services.fidelity;
 
 import java.util.Set;
 
