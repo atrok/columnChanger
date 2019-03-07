@@ -95,7 +95,7 @@ public class VAGStatsService extends UtilService {
 						String vags = vag_duplicated.get(k);
 						String script = (vag_scripts.containsKey(k)) ? vag_scripts.get(k) : "";
 
-						writer.write(k + "," + vags + "," + script);
+						writer.write(k + "," + vags + "," + script.replace("\r\n", ""));
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
